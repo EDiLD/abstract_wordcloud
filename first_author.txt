@@ -1,1 +1,104 @@
- 
+Salinization of freshwater ecosystems is a global problem affecting many regions worldwide and can co-occur
+with pesticides in agricultural regions. Given that both stressors are potent to affect macroinvertebrate com-
+munities, their effects could interact.
+We investigated the effects of salinity and pesticides at 24 sites in an agricultural region of southern Victoria,
+South-East Australia. We used distance-based redundancy analysis to determine the influence of pesticides,
+salinity and other environmental variables on the composition of macroinvertebrate communities.
+Salinity and pesticide toxicity had a statistically significant effect on communities as had the substrate com-
+position and the percentage of pool and riffle sections in the sampled stream reaches. We did not find evi-
+dence for interactive effects between salinity and pesticides, i.e. the effect of one of these variables did not
+depend on the level of the other.
+Nevertheless, our results show that salinization and exposure to pesticides can be major factors for the struc-
+ture of macroinvertebrate communities in agricultural regions. Pesticide toxicity acted on a lower taxonomic
+level compared to salinity, potentially indicating evolutionary adaptation to salinity stress.
+
+All species are hierarchically related to one another, and we use taxonomic
+names to label the nodes in this hierarchy. Taxonomic data is becoming
+increasingly available on the web, but scientists need a way to access it in a
+programmatic fashion that’s easy and reproducible. We have developed taxize,
+an open-source software package (freely available from
+http://cran.r-project.org/web/packages/taxize/index.html ) for the R language.
+taxize provides simple, programmatic access to taxonomic data for 13 data
+sources around the web. We discuss the need for a taxonomic toolbelt in R,
+and outline a suite of use cases for which taxize is ideally suited (including a full
+workflow as an appendix). The taxize package facilitates open and
+reproducible science by allowing taxonomic data collection to be done in the
+open-source R platform.
+
+Salinization of rivers resulting from industrial discharge or road-deicing can adversely affect macroinvertebrates.
+Trait-based approaches are a promising tool in ecological monitoring and may perform better than taxonomy-
+based approaches. However only little is known how and which biological traits are affected by salinization.
+We investigated the effects of anthropogenic salinization on macroinvertebrate communities and biological traits
+in the Werra River, Germany and compared the taxonomic and trait response.
+We found a change in macroinvertebrate community and trait composition. Communities at saline sites
+were characterized by the three exotic species Gammarus tigrinus, Apocorophium lacustre and Potamopyrgus
+antipodarum. The frequencies of trait modalities long life cycle duration, respiration by gill, ovoviviparity, shred-
+der and multivoltinism were statistically significantly increased at saline sites.
+The trait-based ordination resulted in a higher explained variance than the taxonomy-based ordination, indicat-
+ing a better performance of the trait-based approach, resulting in a better discrimination between saline and non-
+saline sites. Our results are in general agreement with other studies from Europe, indicating a trait convergence
+for saline streams, being dominated by the traits ovoviviparity and multivoltinism. Three further traits (respira-
+tion by gill, life cycle duration and shredders) responded strongly to salinization, but this may primarily be attrib-
+uted to the dominance of a single invasive species, G. tigrinus, at the saline sites in the Werra River.
+
+Mesocosm experiments that study the eco-
+logical impact of chemicals are often analysed using the
+multivariate method ‘Principal Response Curves’ (PRCs).
+Recently, the extension of generalised linear models
+(GLMs) to multivariate data was introduced as a tool to
+analyse community data in ecology. Moreover, data ag-
+gregation techniques that can be analysed with univariate
+statistics have been proposed. The aim of this study was to
+compare their performance. We compiled macroinverte-
+brate abundance datasets of mesocosm experiments de-
+signed for studying the effect of various organic chemicals,
+mainly pesticides, and re-analysed them. GLMs for mul-
+tivariate data and selected aggregated endpoints were
+compared to PRCs regarding their performance and
+potential to identify affected taxa. In addition, we analysed
+the inter-replicate variability encountered in the studies.
+Mesocosm experiments characterised by a higher taxa
+richness of the community and/or lower taxonomic
+resolution showed a greater inter-replicate variability,
+whereas variability decreased the more zero counts were
+encountered in the samples. GLMs for multivariate data
+performed equally well as PRCs regarding the community
+response. However, compared to first axis PRCs, GLMs
+provided a better indication of individual taxa responding
+to treatments, as separate models are fitted to each taxon.
+Data aggregation methods performed considerably poorer
+compared to PRCs. Multivariate community data, which
+are generated during mesocosm experiments, should be
+analysed using multivariate methods to reveal treatment-
+related community-level responses. GLMs for multivariate
+data are an alternative to the widely used PRCs.
+
+Ecotoxicologists often encounter count and pro-
+portion data that are rarely normally distributed. To meet
+the assumptions of the linear model, such data are usually 
+transformed or non-parametric methods are used if the
+transformed data still violate the assumptions. Generalized
+linear models (GLMs) allow to directly model such data,
+without the need for transformation. Here, we compare the
+performance of two parametric methods, i.e., (1) the linear
+model (assuming normality of transformed data), (2) GLMs
+(assuming a Poisson, negative binomial, or binomially dis-
+tributed response), and (3) non-parametric methods. We
+simulated typical data mimicking low replicated ecotoxicological 
+experiments of two common data types (counts and
+proportions from counts). We compared the performance of
+the different methods in terms of statistical power and Type
+I error for detecting a general treatment effect and deter-
+mining the lowest observed effect concentration (LOEC). In
+addition, we outlined differences on a real-world mesocosm
+data set. For count data, we found that the quasi-Poisson
+model yielded the highest power. The negative binomial
+GLM resulted in increased Type I errors, which could
+be fixed using the parametric bootstrap. For proportions,
+binomial GLMs performed better than the linear model,
+except to determine LOEC at extremely low sample sizes.
+The compared non-parametric methods had generally lower
+power. We recommend that counts in one-factorial experi-
+ments should be analyzed using quasi-Poisson models and
+proportions from counts by binomial GLMs. These methods
+should become standard in ecotoxicology.

@@ -1,1 +1,168 @@
- 
+###
+Salinization of freshwater ecosystems is a global problem affecting many regions worldwide and can co-occur
+with pesticides in agricultural regions. Given that both stressors are potent to affect macroinvertebrate com-
+munities, their effects could interact.
+We investigated the effects of salinity and pesticides at 24 sites in an agricultural region of southern Victoria,
+South-East Australia. We used distance-based redundancy analysis to determine the influence of pesticides,
+salinity and other environmental variables on the composition of macroinvertebrate communities.
+Salinity and pesticide toxicity had a statistically significant effect on communities as had the substrate com-
+position and the percentage of pool and riffle sections in the sampled stream reaches. We did not find evi-
+dence for interactive effects between salinity and pesticides, i.e. the effect of one of these variables did not
+depend on the level of the other.
+Nevertheless, our results show that salinization and exposure to pesticides can be major factors for the struc-
+ture of macroinvertebrate communities in agricultural regions. Pesticide toxicity acted on a lower taxonomic
+level compared to salinity, potentially indicating evolutionary adaptation to salinity stress.
+
+All species are hierarchically related to one another, and we use taxonomic
+names to label the nodes in this hierarchy. Taxonomic data is becoming
+increasingly available on the web, but scientists need a way to access it in a
+programmatic fashion that’s easy and reproducible. We have developed taxize,
+an open-source software package (freely available from
+http://cran.r-project.org/web/packages/taxize/index.html ) for the R language.
+taxize provides simple, programmatic access to taxonomic data for 13 data
+sources around the web. We discuss the need for a taxonomic toolbelt in R,
+and outline a suite of use cases for which taxize is ideally suited (including a full
+workflow as an appendix). The taxize package facilitates open and
+reproducible science by allowing taxonomic data collection to be done in the
+open-source R platform.
+
+Salinization of rivers resulting from industrial discharge or road-deicing can adversely affect macroinvertebrates.
+Trait-based approaches are a promising tool in ecological monitoring and may perform better than taxonomy-
+based approaches. However only little is known how and which biological traits are affected by salinization.
+We investigated the effects of anthropogenic salinization on macroinvertebrate communities and biological traits
+in the Werra River, Germany and compared the taxonomic and trait response.
+We found a change in macroinvertebrate community and trait composition. Communities at saline sites
+were characterized by the three exotic species Gammarus tigrinus, Apocorophium lacustre and Potamopyrgus
+antipodarum. The frequencies of trait modalities long life cycle duration, respiration by gill, ovoviviparity, shred-
+der and multivoltinism were statistically significantly increased at saline sites.
+The trait-based ordination resulted in a higher explained variance than the taxonomy-based ordination, indicat-
+ing a better performance of the trait-based approach, resulting in a better discrimination between saline and non-
+saline sites. Our results are in general agreement with other studies from Europe, indicating a trait convergence
+for saline streams, being dominated by the traits ovoviviparity and multivoltinism. Three further traits (respira-
+tion by gill, life cycle duration and shredders) responded strongly to salinization, but this may primarily be attrib-
+uted to the dominance of a single invasive species, G. tigrinus, at the saline sites in the Werra River.
+
+Mesocosm experiments that study the eco-
+logical impact of chemicals are often analysed using the
+multivariate method ‘Principal Response Curves’ (PRCs).
+Recently, the extension of generalised linear models
+(GLMs) to multivariate data was introduced as a tool to
+analyse community data in ecology. Moreover, data ag-
+gregation techniques that can be analysed with univariate
+statistics have been proposed. The aim of this study was to
+compare their performance. We compiled macroinverte-
+brate abundance datasets of mesocosm experiments de-
+signed for studying the effect of various organic chemicals,
+mainly pesticides, and re-analysed them. GLMs for mul-
+tivariate data and selected aggregated endpoints were
+compared to PRCs regarding their performance and
+potential to identify affected taxa. In addition, we analysed
+the inter-replicate variability encountered in the studies.
+Mesocosm experiments characterised by a higher taxa
+richness of the community and/or lower taxonomic
+resolution showed a greater inter-replicate variability,
+whereas variability decreased the more zero counts were
+encountered in the samples. GLMs for multivariate data
+performed equally well as PRCs regarding the community
+response. However, compared to first axis PRCs, GLMs
+provided a better indication of individual taxa responding
+to treatments, as separate models are fitted to each taxon.
+Data aggregation methods performed considerably poorer
+compared to PRCs. Multivariate community data, which
+are generated during mesocosm experiments, should be
+analysed using multivariate methods to reveal treatment-
+related community-level responses. GLMs for multivariate
+data are an alternative to the widely used PRCs.
+
+Ecotoxicologists often encounter count and pro-
+portion data that are rarely normally distributed. To meet
+the assumptions of the linear model, such data are usually 
+transformed or non-parametric methods are used if the
+transformed data still violate the assumptions. Generalized
+linear models (GLMs) allow to directly model such data,
+without the need for transformation. Here, we compare the
+performance of two parametric methods, i.e., (1) the linear
+model (assuming normality of transformed data), (2) GLMs
+(assuming a Poisson, negative binomial, or binomially dis-
+tributed response), and (3) non-parametric methods. We
+simulated typical data mimicking low replicated ecotoxicological 
+experiments of two common data types (counts and
+proportions from counts). We compared the performance of
+the different methods in terms of statistical power and Type
+I error for detecting a general treatment effect and deter-
+mining the lowest observed effect concentration (LOEC). In
+addition, we outlined differences on a real-world mesocosm
+data set. For count data, we found that the quasi-Poisson
+model yielded the highest power. The negative binomial
+GLM resulted in increased Type I errors, which could
+be fixed using the parametric bootstrap. For proportions,
+binomial GLMs performed better than the linear model,
+except to determine LOEC at extremely low sample sizes.
+The compared non-parametric methods had generally lower
+power. We recommend that counts in one-factorial experi-
+ments should be analyzed using quasi-Poisson models and
+proportions from counts by binomial GLMs. These methods
+should become standard in ecotoxicology.
+
+
+### 
+ Effects of anthropogenic and environmental stressors on freshwater communities can propagate to ecosystem
+functions and may in turn impede ecosystem services. We investigated potential shifts in ecosystem functions
+that provide energy for freshwater ecosystems due to pesticides and salinity in 24 sites in streams of southeast
+Australia. First, effects on allochthonous organic matter (AOM) breakdown using three different substrates
+(leaves, cotton strips, wood sticks) in coarse and fine bags were investigated. Second, we examined effects on
+stream metabolism that delivers information on the ecosystem functions of gross primary production and
+ecosystem respiration. We found up to a fourfold reduction in AOM breakdown due to exposure to pesticides
+and salinity, where both stressors contributed approximately equally to the reduction. The effect was additive
+as, no interaction or correlation between the two stressors was found. Leaf breakdown responded strongly
+and exclusively to exposure to pesticides and salinity, whereas cotton strip breakdown was less sensitive and
+responded also to other stressors such as nutrients. No functional redundancy for the effects of pesticides and
+salinity on leaf breakdown was observed. For wood stick breakdown, no relationship to environmental
+gradients was found, however, the sample size was lower. We did not detect effects of pesticides or salinity on
+gross primary production or ecosystem respiration. A reduction in AOM breakdown by pesticides and salinity
+may impair the ecosystem services of food provision and possibly water purification. Hence, future studies
+should examine the spatial extent of these effects.
+
+Climate change and pollution are considered as major drivers of biodiversity loss. Climate change is a
+global multi-stressor, whereas pollution predominantly acts on the local scale. Organisms traits provide
+mechanistic links between biotic responses and stressors. We reviewed and analyzed the literature on
+the responses of vertebrates, invertebrates, microorganisms and plants traits to climate change (437
+studies) and pollution (121 studies), to assess whether there was uniformity (i.e. convergence) in the
+responses of traits to the multi-stressors. For climate change, the traits related to tolerance responded
+uniformly across taxonomic groups, indicating trait convergence. For pollution, the low number of
+studies hampered a comparison across taxonomic groups. However, aquatic invertebrates that are
+tolerant, or exhibit high dispersal or reproduction capacities increased in response to pollution, whereas
+body mass and size increased in phytoplankton and fish, respectively. We provide a set of traits that have
+the potential to predict ecosystem-wide effects of climate change and pollution.
+
+The environmental safety of Bacillus thuringiensis subsp. israelensis (Bti) is still controversial, mainly because most
+of the previous field studies on its undesired effects were spatially limited and did not address the relationship
+between community similarity and application time and frequency. No general statement can therefore be
+drawn on the usage conditions of Bti that insure protection of non-target organisms.
+The present study was conducted in eight sites distributed over the main geographical sectors where mosquito
+control is implemented in mainland France and Corsica. Changes in non-target aquatic invertebrates were
+followed at elapsed time after repeated applications of two Bti formulations (VectoBac® WDG or 12AS) up to
+four consecutive years. We examined the influence of both larvicide treatments and environmental variables on
+community dynamics and dissimilarity between treated and control areas. As it can be argued that chironomids
+are the most vulnerable group of non-target invertebrates, we scrutinised potential Bti-related effects on the dy-
+namics of their community.
+The use of VectoBac® WDG and 12AS in coastal and continental wetlands had no immediate or long-term detect-
+able effect on the taxonomic structure and taxa abundance of non-target aquatic invertebrate communities, in-
+cluding chironomids. This applied to the main habitats where mosquito larvae occur, regardless of their
+geographic location. Flooding, whose frequency and duration depend on local meteorological and hydrological
+conditions, was identified as the main environmental driver of invertebrate community dynamics.
+Our findings add support to the environmental safety of currently available Bti formulations when following rec-
+ommended application rates and best mosquito control practices.
+
+Given the multitude of pesticides used in agriculture, adjacent streams are typically exposed to pesticide mix-
+tures. Previous studies analysed the ecological risks of a few pesticide mixtures or were limited to an individual
+region or crop, whereas a large scale analysis of pesticide mixtures is missing. We analysed routine monitoring
+data from Germany, France, the Netherlands and the USA comprising a total of 4532 sites and 56,084 sampling
+occasions with the aim to identify the most frequently detected pesticides, their metabolites and mixtures. The
+most frequently detected compounds were dominated by herbicides and their metabolites. Mixtures mostly
+comprised of two up to five compounds, whereas mixtures in the USA and France had clearly less compounds
+than those of Germany and the Netherlands. The number of detected pesticides and thereby the size of mixtures
+is positively correlated to the number of measured pesticides (r = 0.57). In contrast, a low relationship was found
+to the ratio of agricultural areas within the catchment (r = 0.17), and no relationship was found to the size of the
+catchment (r = 0.06). Overall, our study provides priority mixtures for different countries that may be used for
+future ecotoxicological studies to improve risk assessment for stream ecosystems.
